@@ -26,3 +26,5 @@ elif answer_1 == "mineral":
         print("My guess is that you are thinking of a paper clip.")
     else:
         print("Whoops. Looks like your input is invalid.")
+else:
+    print("Whoops. Looks like your input is invalid.")
