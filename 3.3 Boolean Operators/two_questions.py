@@ -12,16 +12,14 @@ if answer_1 == "animal":
         print("My guess is that you are thinking of a squirrel.")
     else:
         print("Whoops. Looks like your input is invalid.")
-
-if answer_1 == "vegetable":
+elif answer_1 == "vegetable":
     if answer_2 == "yes":
         print("My guess is that you are thinking of a watermelon.")
     elif answer_2 == "no":
         print("My guess is that you are thinking of a carrot.")
     else:
         print("Whoops. Looks like your input is invalid.")
-
-if answer_1 == "mineral":
+elif answer_1 == "mineral":
     if answer_2 == "yes":
         print("My guess is that you are thinking of a Camaro.")
     elif answer_2 == "no":
